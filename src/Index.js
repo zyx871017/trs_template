@@ -2,6 +2,10 @@ import React from 'react';
 import Header from './component/Header';
 
 class Index extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         return (<div>
             <div className="top_content">
@@ -14,7 +18,7 @@ class Index extends React.Component {
                     <i className="phone_icon"/>
                 </div>
             </div>
-            <Header/>
+            <Header history={this.props.history}/>
             {this.props.children}
         </div>);
     }
