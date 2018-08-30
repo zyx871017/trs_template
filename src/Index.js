@@ -20,6 +20,9 @@ class Index extends React.Component {
             </div>
             <Header history={this.props.history}/>
             {this.props.children}
+            <footer>
+                页脚
+            </footer>
         </div>);
     }
 }

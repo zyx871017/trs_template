@@ -184,6 +184,20 @@ li {
     min-width: 980px;
 }
 
-.category_title {
+.col2in1 {
+    width: 50%;
+}
 
+.paragraph {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 10px 0;
+}
+
+.top_right_img {
+    width: 80%;
+}
+
+.tx_center {
+    text-align: center;
 }

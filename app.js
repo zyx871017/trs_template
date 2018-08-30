@@ -7,6 +7,7 @@ import Index from './src/Index';
 import First_page from './src/First_page';
 import Abstract from './src/about_us/Abstract';
 import Co_sense from './src/about_us/Co_sense';
+import Co_project from './src/about_us/Co_project';
 import createBrowserHistory from 'history/createHashHistory';
 
 const history = createBrowserHistory();
@@ -20,6 +21,7 @@ ReactDom.render(
                 <Route path="/first_page" component={First_page}/>
                 <Route path="/abstract" component={Abstract}/>
                 <Route path="/co_sense" component={Co_sense}/>
+                <Route path="/co_project" component={Co_project}/>
             </Index>
         </div>
     </Router>,
